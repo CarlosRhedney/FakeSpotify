@@ -1,0 +1,1 @@
+# Página FakeSpotify conteúdo educacional.
