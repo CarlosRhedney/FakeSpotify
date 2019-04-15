@@ -1,0 +1,137 @@
+body, html {
+	height: 100%;
+	background: url("img/capa.png"),
+				url("img/ruido.png"),
+				linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+}
+nav.navbar {
+	border: none;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 20px;
+}
+.article {
+	height: 100%;
+	text-align: center;
+}
+.article h1 {
+	color: #fff;
+	margin: 200px 0 100px 0;
+	font-size: 90px;
+	font-weight: 900;
+	letter-spacing: -6px;
+}
+.article button {
+	background: #699;
+	border-radius: 50px;
+	margin: 0 20px 10px 0;
+}
+.article button a:hover {
+	text-decoration: none;
+}
+.article button:hover {
+	background: #7c26f8;
+}
+.article button a {
+	color: white;
+}
+.section {
+	padding: 20px;
+	background: #fff;
+}
+.section img {
+	margin: 10px;
+}
+.section h2 {
+	color: #7c26f8;
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -3px;
+}
+.section h3 {
+	color: #7c26f8;
+}
+.rot {
+	padding-left: 65px;
+	transform: rotate(30deg);
+}
+.aside h2 {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -3px;
+}
+.aside h3 {
+	color: #7c2;
+}
+.footer {
+	padding: 70px;
+	background: #000;
+	position: relative;
+}
+.footer a:hover {
+	color: #7c2;
+	text-decoration: none;
+}
+.footer ul li a:hover {
+	background: none;
+}
+.footer ul li {
+	list-style: none;
+}
+.rodape {
+	background: #000;
+	text-align: center;
+	color: #fff;
+}
+
+/* media queris */
+@media screen and (max-width: 767px){
+	.article h1 {
+	color: #fff;
+	margin: 90px 0 30px 0;
+	font-size: 45px;
+	font-weight: 900;
+	letter-spacing: -2px;
+}
+}
+@media screen and (max-width: 767px){
+	.article {
+	height: 60%;
+	text-align: center;
+}
+}
+@media screen and (min-width: 768px){
+	.article h1 {
+	color: #fff;
+	margin: 80px 0 40px 0;
+	font-size: 75px;
+	font-weight: 900;
+	letter-spacing: -3px;
+}
+}
+@media screen and (min-width: 768px){
+	.article {
+	height: 70%;
+	text-align: center;
+}
+}
+@media screen and (min-width: 992px){
+	.article h1 {
+	color: #fff;
+	margin: 200px 0 100px 0;
+	font-size: 90px;
+	font-weight: 900;
+	letter-spacing: -6px;
+}
+}
+@media screen and (min-width: 992px){
+	.article {
+	height: 100%;
+	text-align: center;
+}
+}
+
+
